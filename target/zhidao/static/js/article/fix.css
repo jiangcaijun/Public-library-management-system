@@ -1,0 +1,232 @@
+body{
+	background: #fff url('cloud-bar.png') repeat-x;
+    padding-top:5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+
+pre{
+    margin: 10px 0 10px;
+}
+
+a,code{
+	color: #f4645f;
+}
+
+a.thumbnail:hover{
+	border-color: #e74430;
+}
+
+a:hover{
+	color: #e74430;
+}
+
+.entry-title a:visited{
+    color: #e74430;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #e74430;
+}
+
+.btn-primary,.btn-info,.label-info{
+    background: #f4645f;
+    border-color: #e74430;
+}
+
+.btn-primary:hover,.btn-info:hover{
+    background: #e74430;
+    border-color: #e74430;
+}
+
+.text-info{
+    color: #f4645f;
+}
+
+.text-info:hover{
+    color: #e74430;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+
+.navbar{
+	min-height: 60px;
+}
+
+.navbar-collapse{
+	margin-top: 3px;
+}
+
+.btn-success,.btn-success[disabled]{
+	background: #f4645f;
+    border-color: #e74430;
+}
+
+.btn-success:hover{
+	background-color: #e74430;
+	border-color: #e74430;
+}
+
+input.search-field:focus{
+	border-color: #f4645f;
+}
+
+input.search-field {
+	box-shadow: none;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
+    background: #fff;
+    border-color: #f4645f;
+    color: #f4645f;
+    text-shadow: none;
+}
+
+.dropdown-menu>.active>a{
+    background: #f4645f;
+    border-color: #e74430;
+}
+
+.dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+    background: #e74430;
+    border-color: #e74430;
+}
+
+#colophon{
+    padding: 0;
+    min-height: 45px;
+}
+
+.page_navi{
+    border-top: 1px solid #eee;
+    padding: 15px;
+    overflow:hidden;
+    width:100%;
+    text-align:center;
+}
+.page_navi a{
+    height:45px;
+    border:1px solid #DDD;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+    color:#888;
+    text-decoration:none;
+    line-height:45px;
+    margin:2px;
+    padding:5px 10px;
+}
+.page_navi a:hover,.page_navi a.current{
+    border:1px solid #e74430;
+    color:#e74430;
+    font-weight:bold;
+}
+
+.wp-content-pager{
+      border-top: 1px solid #eee;
+      padding: 30px;
+      text-align: center;
+}
+
+.wp-content-pager .wp-pagenavi a,.wp-content-pager .wp-pagenavi .extend{
+    height:45px;
+    border:1px solid #DDD;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+    color:#888;
+    text-decoration:none;
+    line-height:45px;
+    margin:2px;
+    padding:5px 10px;
+}
+
+.wp-content-pager .wp-pagenavi a:hover,.wp-content-pager .wp-pagenavi .current{
+    height:45px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+    text-decoration:none;
+    line-height:45px;
+    margin:2px;
+    padding:5px 10px;
+    border:1px solid #e74430;
+    color:#e74430;
+    font-weight:bold;
+}
+
+.share-jiathis{
+    margin-top: 3px;
+}
+
+.share-jiathis-label{
+    float: left;
+    margin-top: -2px;
+}
+
+.jiathis_txt_24x24{
+    margin-top: 4px;
+}
+
+.entry-excerpt p{
+    line-height: 24px;
+}
+
+.entry-content img{
+    box-shadow: none;
+    border: none;
+}
+
+#ipt-kb-affix-active-post .list-group-item{
+    padding: 5px 10px;
+    padding-left: 10px;
+}
+
+.cat-links{
+    padding-right: 10px;
+}
+
+#main footer.entry-meta .meta-data{
+    line-height: 20px;
+}
+
+.form-group .input-group .search-field{
+    box-shadow: none;
+}
+
+.textwidget ul.ds-recent-comments{
+    margin: 0;
+}
+
+#ds-recent-comments li.ds-comment{
+    border-top: none;
+}
+
+.pager li>a, .pager li>span{
+    padding: 5px 10px;
+}
+
+.friend-link .panel-body a{
+    padding-right: 8px; 
+}
+
+.google-ads ins{
+    background:none;
+}
+
+@media(min-width: 992px){
+    .stick{
+        position:fixed;
+        top:20px;
+        width: 280px;
+    }
+}
+
+@media(min-width: 1200px){
+    .stick{
+        position:fixed;
+        top:20px;
+        width: 348px;
+    }
+}
